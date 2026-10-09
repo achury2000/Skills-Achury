@@ -1,0 +1,17 @@
+{
+  "name": "skills-achury",
+  "owner": {
+    "name": "Skills-Achury contributors"
+  },
+  "metadata": {
+    "description": "Unified agent skills pack for Claude Code and OpenCode",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "skills-achury",
+      "source": "./",
+      "description": "244 skills, 67 agents, and 63 commands curated for modern AI coding agents."
+    }
+  ]
+}

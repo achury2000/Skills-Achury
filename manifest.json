@@ -1,0 +1,109 @@
+{
+  "name": "skills-achury",
+  "version": "1.0.0",
+  "description": "Unified pack of agent skills, agents, commands, and rules for Claude Code and OpenCode.",
+  "license": "MIT",
+  "homepage": "https://github.com/telefonica/skills-achury",
+  "profiles": {
+    "minimal": {
+      "description": "Core skills only. Lightweight install.",
+      "skills": [
+        "security-audit",
+        "shadcn",
+        "migrate-radix-to-base",
+        "tdd-workflow",
+        "code-review",
+        "security-review",
+        "coding-standards",
+        "error-handling",
+        "api-design",
+        "frontend-patterns",
+        "backend-patterns",
+        "react-patterns",
+        "python-patterns",
+        "golang-patterns",
+        "rust-patterns",
+        "e2e-testing",
+        "search-first",
+        "git-workflow",
+        "code-simplifier",
+        "performance-optimizer",
+        "silent-failure-hunter",
+        "documentation-lookup",
+        "prompt-optimizer",
+        "context-budget",
+        "repo-scan",
+        "codebase-onboarding",
+        "code-tour",
+        "architecture-decision-records",
+        "delivery-gate"
+      ],
+      "agents": [],
+      "commands": [],
+      "rules": [],
+      "hooks": false,
+      "reference": false
+    },
+    "standard": {
+      "description": "All skills, agents, commands, and rules.",
+      "skills": "all",
+      "agents": "all",
+      "commands": "all",
+      "rules": "all",
+      "reference": false
+    },
+    "full": {
+      "description": "Everything: skills, agents, commands, and rules.",
+      "skills": "all",
+      "agents": "all",
+      "commands": "all",
+      "rules": "all",
+      "reference": true
+    }
+  },
+  "sources": {
+    "ecc": {
+      "name": "ECC (Everything Claude Code)",
+      "url": "https://github.com/affaan-m/ECC",
+      "license": "MIT"
+    },
+    "ruflo": {
+      "name": "Ruflo (formerly Claude Flow)",
+      "url": "https://github.com/ruvnet/claude-flow",
+      "license": "MIT"
+    },
+    "cloudflare": {
+      "name": "security-audit-skill",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "license": "MIT"
+    },
+    "shadcn": {
+      "name": "shadcn/ui",
+      "url": "https://github.com/shadcn-ui/ui",
+      "license": "MIT"
+    },
+    "floci": {
+      "name": "Floci",
+      "url": "https://github.com/hectorvent/floci",
+      "license": "MIT"
+    },
+    "system-prompts": {
+      "name": "system-prompts-and-models-of-ai-tools",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "license": "GPL-3.0"
+    }
+  },
+"targets": {
+    "claude": {
+      "skills": "~/.claude/skills",
+      "agents": "~/.claude/agents",
+      "commands": "~/.claude/commands",
+      "rules": "~/.claude/rules/skills-achury"
+    },
+    "opencode": {
+      "skills": "~/.opencode/skills",
+      "config": "~/.opencode/opencode.json"
+    }
+  }
+  }
+}

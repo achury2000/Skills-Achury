@@ -1,0 +1,38 @@
+{
+  "name": "skills-achury",
+  "version": "1.0.0",
+  "description": "Unified pack of 244 agent skills, 67 agents, and 63 commands curated for Claude Code and OpenCode. Curated from ECC, Ruflo, Cloudflare security-audit, shadcn/ui, and more.",
+  "author": {
+    "name": "Skills-Achury contributors"
+  },
+  "homepage": "https://github.com/telefonica/skills-achury",
+  "repository": "https://github.com/telefonica/skills-achury",
+  "license": "MIT",
+  "keywords": [
+    "skills",
+    "agents",
+    "commands",
+    "rules",
+    "claude-code",
+    "opencode",
+    "tdd",
+    "security",
+    "code-review",
+    "workflow"
+  ],
+  "skills": [
+    "./skills/"
+  ],
+  "commands": [
+    "./commands/"
+  ]
+}
+  },
+  "mcpServers": {},
+  "skills": [
+    "./skills/"
+  ],
+  "commands": [
+    "./commands/"
+  ]
+}
